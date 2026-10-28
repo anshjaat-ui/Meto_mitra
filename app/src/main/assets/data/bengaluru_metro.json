@@ -1,0 +1,213 @@
+{
+  "lines": [
+    {
+      "id": "blr_purple",
+      "cityId": "bengaluru",
+      "name": "Purple Line",
+      "nameHi": "पर्पल लाइन (बैंगनी लाइन)",
+      "lineNumber": "Line 1",
+      "colorHex": "#7E57C2",
+      "textColorHex": "#FFFFFF",
+      "terminalFrom": "Whitefield (Kadugodi)",
+      "terminalTo": "Challaghatta",
+      "totalStations": 37,
+      "isOperational": true
+    },
+    {
+      "id": "blr_green",
+      "cityId": "bengaluru",
+      "name": "Green Line",
+      "nameHi": "ग्रीन लाइन (हरी लाइन)",
+      "lineNumber": "Line 2",
+      "colorHex": "#43A047",
+      "textColorHex": "#FFFFFF",
+      "terminalFrom": "Madavara (BIEC)",
+      "terminalTo": "Silk Institute",
+      "totalStations": 31,
+      "isOperational": true
+    }
+  ],
+  "stations": [
+    {
+      "id": "blr_majestic",
+      "cityId": "bengaluru",
+      "name": "Nadaprabhu Kempegowda Station, Majestic",
+      "nameHi": "नादप्रभु केम्पेगौड़ा स्टेशन, मैजेस्टिक",
+      "code": "MAJ",
+      "latitude": 12.9757,
+      "longitude": 77.5728,
+      "layoutType": "Underground",
+      "openingYear": 2016,
+      "isInterchange": true,
+      "platformsCount": 4,
+      "schematicX": 500.0,
+      "schematicY": 500.0,
+      "hasParking": true,
+      "isWheelchairAccessible": true,
+      "contactNumber": "080-22969300"
+    },
+    {
+      "id": "blr_mg_road",
+      "cityId": "bengaluru",
+      "name": "Mahatma Gandhi Road (MG Road)",
+      "nameHi": "महात्मा गांधी रोड (एमजी रोड)",
+      "code": "MGR",
+      "latitude": 12.9756,
+      "longitude": 77.6068,
+      "layoutType": "Elevated",
+      "openingYear": 2011,
+      "isInterchange": false,
+      "platformsCount": 2,
+      "schematicX": 700.0,
+      "schematicY": 500.0,
+      "hasParking": false,
+      "isWheelchairAccessible": true,
+      "contactNumber": "080-22969301"
+    },
+    {
+      "id": "blr_indiranagar",
+      "cityId": "bengaluru",
+      "name": "Indiranagar",
+      "nameHi": "इंदिरानगर",
+      "code": "IND",
+      "latitude": 12.9784,
+      "longitude": 77.6384,
+      "layoutType": "Elevated",
+      "openingYear": 2011,
+      "isInterchange": false,
+      "platformsCount": 2,
+      "schematicX": 850.0,
+      "schematicY": 500.0,
+      "hasParking": false,
+      "isWheelchairAccessible": true,
+      "contactNumber": "080-22969302"
+    },
+    {
+      "id": "blr_baiyappanahalli",
+      "cityId": "bengaluru",
+      "name": "Baiyappanahalli",
+      "nameHi": "बैयप्पनहल्ली",
+      "code": "BYP",
+      "latitude": 12.9907,
+      "longitude": 77.6525,
+      "layoutType": "At-Grade",
+      "openingYear": 2011,
+      "isInterchange": false,
+      "platformsCount": 2,
+      "schematicX": 950.0,
+      "schematicY": 500.0,
+      "hasParking": true,
+      "isWheelchairAccessible": true,
+      "contactNumber": "080-22969303"
+    },
+    {
+      "id": "blr_yeshwanthpur",
+      "cityId": "bengaluru",
+      "name": "Yeshwanthpur",
+      "nameHi": "यशवंतपुर",
+      "code": "YPR",
+      "latitude": 13.0232,
+      "longitude": 77.5501,
+      "layoutType": "Elevated",
+      "openingYear": 2014,
+      "isInterchange": false,
+      "platformsCount": 2,
+      "schematicX": 500.0,
+      "schematicY": 300.0,
+      "hasParking": true,
+      "isWheelchairAccessible": true,
+      "contactNumber": "080-22969304"
+    },
+    {
+      "id": "blr_national_college",
+      "cityId": "bengaluru",
+      "name": "National College",
+      "nameHi": "नेशनल कॉलेज",
+      "code": "NTC",
+      "latitude": 12.9501,
+      "longitude": 77.5724,
+      "layoutType": "Elevated",
+      "openingYear": 2017,
+      "isInterchange": false,
+      "platformsCount": 2,
+      "schematicX": 500.0,
+      "schematicY": 700.0,
+      "hasParking": false,
+      "isWheelchairAccessible": true,
+      "contactNumber": "080-22969305"
+    }
+  ],
+  "station_lines": [
+    { "id": "sl_blr_maj_p", "stationId": "blr_majestic", "lineId": "blr_purple", "sequenceOrder": 2, "platformNumber": "1" },
+    { "id": "sl_blr_mg_p", "stationId": "blr_mg_road", "lineId": "blr_purple", "sequenceOrder": 3, "platformNumber": "1" },
+    { "id": "sl_blr_ind_p", "stationId": "blr_indiranagar", "lineId": "blr_purple", "sequenceOrder": 4, "platformNumber": "1" },
+    { "id": "sl_blr_byp_p", "stationId": "blr_baiyappanahalli", "lineId": "blr_purple", "sequenceOrder": 5, "platformNumber": "1" },
+
+    { "id": "sl_blr_ypr_g", "stationId": "blr_yeshwanthpur", "lineId": "blr_green", "sequenceOrder": 1, "platformNumber": "1" },
+    { "id": "sl_blr_maj_g", "stationId": "blr_majestic", "lineId": "blr_green", "sequenceOrder": 2, "platformNumber": "3" },
+    { "id": "sl_blr_ntc_g", "stationId": "blr_national_college", "lineId": "blr_green", "sequenceOrder": 3, "platformNumber": "1" }
+  ],
+  "connections": [
+    { "id": "c_blr_p_1", "cityId": "bengaluru", "lineId": "blr_purple", "fromStationId": "blr_majestic", "toStationId": "blr_mg_road", "distanceKm": 4.1, "travelTimeSeconds": 310 },
+    { "id": "c_blr_p_1_r", "cityId": "bengaluru", "lineId": "blr_purple", "fromStationId": "blr_mg_road", "toStationId": "blr_majestic", "distanceKm": 4.1, "travelTimeSeconds": 310 },
+    { "id": "c_blr_p_2", "cityId": "bengaluru", "lineId": "blr_purple", "fromStationId": "blr_mg_road", "toStationId": "blr_indiranagar", "distanceKm": 3.8, "travelTimeSeconds": 280 },
+    { "id": "c_blr_p_2_r", "cityId": "bengaluru", "lineId": "blr_purple", "fromStationId": "blr_indiranagar", "toStationId": "blr_mg_road", "distanceKm": 3.8, "travelTimeSeconds": 280 },
+    { "id": "c_blr_p_3", "cityId": "bengaluru", "lineId": "blr_purple", "fromStationId": "blr_indiranagar", "toStationId": "blr_baiyappanahalli", "distanceKm": 2.2, "travelTimeSeconds": 170 },
+    { "id": "c_blr_p_3_r", "cityId": "bengaluru", "lineId": "blr_purple", "fromStationId": "blr_baiyappanahalli", "toStationId": "blr_indiranagar", "distanceKm": 2.2, "travelTimeSeconds": 170 },
+
+    { "id": "c_blr_g_1", "cityId": "bengaluru", "lineId": "blr_green", "fromStationId": "blr_yeshwanthpur", "toStationId": "blr_majestic", "distanceKm": 5.6, "travelTimeSeconds": 430 },
+    { "id": "c_blr_g_1_r", "cityId": "bengaluru", "lineId": "blr_green", "fromStationId": "blr_majestic", "toStationId": "blr_yeshwanthpur", "distanceKm": 5.6, "travelTimeSeconds": 430 },
+    { "id": "c_blr_g_2", "cityId": "bengaluru", "lineId": "blr_green", "fromStationId": "blr_majestic", "toStationId": "blr_national_college", "distanceKm": 3.2, "travelTimeSeconds": 240 },
+    { "id": "c_blr_g_2_r", "cityId": "bengaluru", "lineId": "blr_green", "fromStationId": "blr_national_college", "toStationId": "blr_majestic", "distanceKm": 3.2, "travelTimeSeconds": 240 }
+  ],
+  "interchanges": [
+    { "id": "ic_blr_maj", "stationId": "blr_majestic", "fromLineId": "blr_purple", "toLineId": "blr_green", "walkingTimeMinutes": 4, "directions": "Use dedicated transfer escalators between Purple line (Level -1) and Green line (Level -2)." }
+  ],
+  "gates": [
+    { "id": "g_blr_maj_1", "stationId": "blr_majestic", "gateNumber": "Gate 1", "facingDirectionOrLandmark": "Direct subway entry from KSR Bengaluru City Railway Station", "hasLift": true, "hasEscalator": true, "isWheelchairAccessible": true, "nearbyLandmarks": "KSR Bengaluru Railway Station Platform 1" },
+    { "id": "g_blr_maj_2", "stationId": "blr_majestic", "gateNumber": "Gate 2", "facingDirectionOrLandmark": "BMTC & KSRTC Majestic Bus Terminal (Kempegowda Bus Station)", "hasLift": true, "hasEscalator": true, "isWheelchairAccessible": true, "nearbyLandmarks": "KSRTC Intercity Bus Terminus" }
+  ],
+  "parking": [
+    {
+      "id": "p_blr_byp",
+      "stationId": "blr_baiyappanahalli",
+      "available": true,
+      "twoWheelerCapacity": 400,
+      "fourWheelerCapacity": 180,
+      "cycleCapacity": 50,
+      "chargesDescription": "2-Wheeler: ₹15 for 4 hrs, 4-Wheeler: ₹30 for 4 hrs.",
+      "timings": "05:00 AM - 11:30 PM",
+      "locationNotes": "Large parking space behind station entrance."
+    }
+  ],
+  "amenities": [
+    { "id": "am_blr_maj_1", "stationId": "blr_majestic", "type": "WASHROOM", "description": "Divyangjan accessible clean washrooms", "locationInsideStation": "Concourse level near Gate 2", "isOperational": true },
+    { "id": "am_blr_maj_2", "stationId": "blr_majestic", "type": "ATM", "description": "Canara Bank & SBI ATMs", "locationInsideStation": "Platform concourse", "isOperational": true }
+  ],
+  "nearby_places": [
+    { "id": "nb_blr_maj_1", "stationId": "blr_majestic", "name": "KSR Bengaluru City Railway Station", "category": "Transit Hubs", "distanceMeters": 100, "walkingMinutes": 2, "recommendedGate": "Gate 1" },
+    { "id": "nb_blr_maj_2", "stationId": "blr_majestic", "name": "Kempegowda Bus Station (Majestic)", "category": "Transit Hubs", "distanceMeters": 120, "walkingMinutes": 2, "recommendedGate": "Gate 2" },
+    { "id": "nb_blr_mg_1", "stationId": "blr_mg_road", "name": "Church Street & Brigade Road", "category": "Malls & Markets", "distanceMeters": 200, "walkingMinutes": 3, "recommendedGate": "Gate 1" }
+  ],
+  "timings": [
+    {
+      "id": "tm_blr_maj_p",
+      "stationId": "blr_majestic",
+      "lineId": "blr_purple",
+      "directionTerminal": "Whitefield (Kadugodi)",
+      "firstTrainWeekday": "05:00 AM",
+      "lastTrainWeekday": "11:00 PM",
+      "firstTrainSunday": "07:00 AM",
+      "lastTrainSunday": "11:00 PM",
+      "peakFrequencyMin": 4,
+      "nonPeakFrequencyMin": 7
+    }
+  ],
+  "fare_slabs": [
+    { "id": "fs_blr_1", "cityId": "bengaluru", "minKm": 0.0, "maxKm": 2.0, "tokenFare": 10, "smartCardFare": 9, "holidayOrOffPeakFare": 9, "description": "0 - 2 km" },
+    { "id": "fs_blr_2", "cityId": "bengaluru", "minKm": 2.0, "maxKm": 6.0, "tokenFare": 20, "smartCardFare": 18, "holidayOrOffPeakFare": 18, "description": "2 - 6 km" },
+    { "id": "fs_blr_3", "cityId": "bengaluru", "minKm": 6.0, "maxKm": 12.0, "tokenFare": 35, "smartCardFare": 31, "holidayOrOffPeakFare": 31, "description": "6 - 12 km" },
+    { "id": "fs_blr_4", "cityId": "bengaluru", "minKm": 12.0, "maxKm": 18.0, "tokenFare": 45, "smartCardFare": 40, "holidayOrOffPeakFare": 40, "description": "12 - 18 km" },
+    { "id": "fs_blr_5", "cityId": "bengaluru", "minKm": 18.0, "maxKm": 100.0, "tokenFare": 60, "smartCardFare": 54, "holidayOrOffPeakFare": 54, "description": "18+ km" }
+  ]
+}

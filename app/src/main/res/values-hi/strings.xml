@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">मेट्रो साथी</string>
+    <string name="tagline">भारतीय मेट्रो साथी</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">होम</string>
+    <string name="nav_map">मेट्रो मैप</string>
+    <string name="nav_plan">रूट प्लान</string>
+    <string name="nav_stations">स्टेशन</string>
+    <string name="nav_more">अन्य</string>
+
+    <!-- Home -->
+    <string name="search_station_placeholder">स्टेशन या लैंडमार्क खोजें (उदा. राजीव चौक, एम्स)…</string>
+    <string name="quick_actions">त्वरित सेवाएं</string>
+    <string name="action_plan_route">रूट खोजें</string>
+    <string name="action_fare_calc">किराया कैलकुलेटर</string>
+    <string name="action_nearest_station">निकटतम मेट्रो</string>
+    <string name="action_card_balance">कार्ड बैलेंस</string>
+    <string name="action_destination_alarm">स्टेशन अलार्म</string>
+    <string name="action_rules_faq">नियम व हेल्पलाइन</string>
+    <string name="favourites_title">सहेजे गए रूट</string>
+    <string name="recent_searches_title">हालिया खोजें</string>
+    <string name="live_alerts_title">मेट्रो सूचनाएं</string>
+    <string name="no_favourites_yet">कोई सहेजा गया रूट नहीं है। किसी भी रूट को पिन करने के लिए दिल के निशान पर टैप करें!</string>
+    <string name="select_city">शहर चुनें</string>
+
+    <!-- Route Planner -->
+    <string name="from_station">शुरुआती स्टेशन</string>
+    <string name="to_station">गंतव्य स्टेशन</string>
+    <string name="swap_stations">बदलें</string>
+    <string name="use_my_location">वर्तमान स्थान का उपयोग करें</string>
+    <string name="find_route">सर्वोत्तम रूट खोजें</string>
+    <string name="mode_fastest">सबसे तेज़</string>
+    <string name="mode_least_interchanges">न्यूनतम इंटरचेंज</string>
+    <string name="mode_fewest_stations">कम से कम स्टेशन</string>
+    <string name="route_results">रूट परिणाम</string>
+    <string name="travel_time">यात्रा समय</string>
+    <string name="interchanges">इंटरचेंज</string>
+    <string name="stations_count">स्टेशन</string>
+    <string name="fare_label">अनुमानित किराया</string>
+    <string name="smart_card_fare">स्मार्ट कार्ड: ₹%1$d</string>
+    <string name="token_fare">टोकन/क्यूआर: ₹%1$d</string>
+    <string name="step_board">%1$s पर ट्रेन लें</string>
+    <string name="step_ride">%2$s की ओर %1$d स्टेशन यात्रा करें</string>
+    <string name="step_interchange">%1$s पर बदलें -> %2$s (प्लेटफॉर्म %3$s)</string>
+    <string name="step_alight">%1$s पर उतरें (%2$s की ओर निकास)</string>
+    <string name="set_alarm">स्टेशन अलार्म लगाएं</string>
+    <string name="share_route">रूट साझा करें</string>
+    <string name="save_route">रूट सहेजें</string>
+    <string name="route_saved">रूट सहेजा गया</string>
+
+    <!-- Station Details Tabs -->
+    <string name="tab_overview">विवरण</string>
+    <string name="tab_gates">गेट व निकास</string>
+    <string name="tab_amenities">सुविधाएं</string>
+    <string name="tab_parking">पार्किंग</string>
+    <string name="tab_nearby">आस-पास के स्थान</string>
+    <string name="tab_timings">समय सारिणी</string>
+    <string name="tab_accessibility">सुलभता</string>
+
+    <!-- Station Details Content -->
+    <string name="station_code">स्टेशन कोड</string>
+    <string name="station_layout">लेआउट</string>
+    <string name="station_lines">लाइनें</string>
+    <string name="platforms_count">प्लेटफॉर्म</string>
+    <string name="first_train">पहली ट्रेन</string>
+    <string name="last_train">अंतिम ट्रेन</string>
+    <string name="train_frequency">आवृत्ति (फ़्रीक्वेंसी)</string>
+    <string name="parking_available">पार्किंग उपलब्ध</string>
+    <string name="parking_unavailable">पार्किंग उपलब्ध नहीं</string>
+    <string name="two_wheeler">दोपहिया</string>
+    <string name="four_wheeler">चारपहिया</string>
+    <string name="cycle">साइकिल</string>
+    <string name="ladies_coach_info">महिला कोच: ट्रेन के चलने की दिशा में पहला डिब्बा।</string>
+    <string name="wheelchair_accessible">व्हीलचेयर सुलभ</string>
+    <string name="tactile_paths">दृष्टिबाधितों के लिए स्पर्श पथ</string>
+    <string name="report_problem">डेटा सुधार सुझाव दें</string>
+
+    <!-- Card Balance -->
+    <string name="current_balance">वर्तमान बैलेंस</string>
+    <string name="update_balance">बैलेंस अपडेट करें</string>
+    <string name="enter_balance_amount">बैलेंस दर्ज करें (₹)</string>
+    <string name="recharge_online">ऑनलाइन रिचार्ज करें</string>
+    <string name="low_balance_alert">बैलेंस कम है! कृपया जल्द रिचार्ज करें।</string>
+
+    <!-- Settings -->
+    <string name="settings_title">सेटिंग्स</string>
+    <string name="language_setting">भाषा / Language</string>
+    <string name="theme_setting">ऐप थीम</string>
+    <string name="theme_system">सिस्टम डिफ़ॉल्ट</string>
+    <string name="theme_light">लाइट थीम</string>
+    <string name="theme_dark">डार्क थीम</string>
+    <string name="offline_data">ऑफ़लाइन डेटा पैक</string>
+    <string name="clear_cache">कैश व इतिहास साफ़ करें</string>
+    <string name="about_app">मेट्रो साथी के बारे में</string>
+    <string name="privacy_policy">गोपनीयता नीति</string>
+
+    <!-- General -->
+    <string name="loading">मेट्रो डेटा लोड हो रहा है…</string>
+    <string name="error_no_route">चुने गए स्टेशनों के बीच कोई मान्य कनेक्शन नहीं मिला।</string>
+    <string name="select_different_stations">कृपया दो अलग-अलग स्टेशन चुनें।</string>
+    <string name="filter_lines">लाइनें फ़िल्टर करें</string>
+    <string name="reset_map">मैप रीसेट</string>
+    <string name="schematic_view">स्कीमैटिक</string>
+    <string name="geographic_view">भौगोलिक</string>
+</resources>

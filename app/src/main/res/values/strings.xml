@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">MetroSathi</string>
+    <string name="tagline">Indian Metro Companion</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_map">Metro Map</string>
+    <string name="nav_plan">Plan Route</string>
+    <string name="nav_stations">Stations</string>
+    <string name="nav_more">More</string>
+
+    <!-- Home -->
+    <string name="search_station_placeholder">Search station or landmark (e.g. Rajiv Chowk, AIIMS)…</string>
+    <string name="quick_actions">Quick Services</string>
+    <string name="action_plan_route">Plan Route</string>
+    <string name="action_fare_calc">Fare Calculator</string>
+    <string name="action_nearest_station">Nearest Metro</string>
+    <string name="action_card_balance">Card Balance</string>
+    <string name="action_destination_alarm">Travel Alarm</string>
+    <string name="action_rules_faq">Rules &amp; Helpline</string>
+    <string name="favourites_title">Saved Routes</string>
+    <string name="recent_searches_title">Recent Searches</string>
+    <string name="live_alerts_title">Service Announcements</string>
+    <string name="no_favourites_yet">No saved routes yet. Tap the heart on any planned route to pin it here!</string>
+    <string name="select_city">Select City</string>
+
+    <!-- Route Planner -->
+    <string name="from_station">From Station</string>
+    <string name="to_station">To Station</string>
+    <string name="swap_stations">Swap</string>
+    <string name="use_my_location">Use Current Location</string>
+    <string name="find_route">Find Best Route</string>
+    <string name="mode_fastest">Fastest</string>
+    <string name="mode_least_interchanges">Least Interchanges</string>
+    <string name="mode_fewest_stations">Fewest Stations</string>
+    <string name="route_results">Route Results</string>
+    <string name="travel_time">Travel Time</string>
+    <string name="interchanges">Interchanges</string>
+    <string name="stations_count">Stations</string>
+    <string name="fare_label">Estimated Fare</string>
+    <string name="smart_card_fare">Smart Card: ₹%1$d</string>
+    <string name="token_fare">Token/QR: ₹%1$d</string>
+    <string name="step_board">Board at %1$s</string>
+    <string name="step_ride">Ride %1$d stations towards %2$s</string>
+    <string name="step_interchange">Change at %1$s to %2$s (Platform %3$s)</string>
+    <string name="step_alight">Alight at %1$s (Exit towards %2$s)</string>
+    <string name="set_alarm">Set Station Alarm</string>
+    <string name="share_route">Share Route</string>
+    <string name="save_route">Save Route</string>
+    <string name="route_saved">Route saved to favourites</string>
+
+    <!-- Station Details Tabs -->
+    <string name="tab_overview">Overview</string>
+    <string name="tab_gates">Gates &amp; Exits</string>
+    <string name="tab_amenities">Amenities</string>
+    <string name="tab_parking">Parking</string>
+    <string name="tab_nearby">Nearby</string>
+    <string name="tab_timings">Timings</string>
+    <string name="tab_accessibility">Accessibility</string>
+
+    <!-- Station Details Content -->
+    <string name="station_code">Station Code</string>
+    <string name="station_layout">Layout</string>
+    <string name="station_lines">Lines</string>
+    <string name="platforms_count">Platforms</string>
+    <string name="first_train">First Train</string>
+    <string name="last_train">Last Train</string>
+    <string name="train_frequency">Frequency</string>
+    <string name="parking_available">Parking Available</string>
+    <string name="parking_unavailable">No Parking Available</string>
+    <string name="two_wheeler">2-Wheeler</string>
+    <string name="four_wheeler">4-Wheeler</string>
+    <string name="cycle">Bicycle</string>
+    <string name="ladies_coach_info">Ladies Coach Guide: Usually first coach in moving direction.</string>
+    <string name="wheelchair_accessible">Wheelchair Accessible</string>
+    <string name="tactile_paths">Tactile Paths for Visually Impaired</string>
+    <string name="report_problem">Report Data Correction</string>
+
+    <!-- Card Balance -->
+    <string name="current_balance">Current Balance</string>
+    <string name="update_balance">Update Balance</string>
+    <string name="enter_balance_amount">Enter Balance (₹)</string>
+    <string name="recharge_online">Recharge Online</string>
+    <string name="low_balance_alert">Balance is low! Please recharge soon.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="language_setting">Language / भाषा</string>
+    <string name="theme_setting">App Theme</string>
+    <string name="theme_system">System Default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="offline_data">Offline Data Packs</string>
+    <string name="clear_cache">Clear Cache &amp; History</string>
+    <string name="about_app">About MetroSathi</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <!-- General -->
+    <string name="loading">Loading Metro Data…</string>
+    <string name="error_no_route">No direct or valid connection found between selected stations.</string>
+    <string name="select_different_stations">Please select two different stations.</string>
+    <string name="filter_lines">Filter Lines</string>
+    <string name="reset_map">Reset View</string>
+    <string name="schematic_view">Schematic</string>
+    <string name="geographic_view">Geographic</string>
+</resources>
